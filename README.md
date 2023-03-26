@@ -10,3 +10,5 @@ SHORT - armazena dados positivos e negativos e o dobro do BYTE(16 bits) e cobre 
 INT - armazena dados positivos e negativos e o dobro do SHORT(32 bits) e cobre 10 digitos.
 
 LONG - armazena dados positivos e negativos e o dobro do INT(64 bits)
+
+---
