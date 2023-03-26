@@ -4,14 +4,6 @@
 
 ### Tipos de dados java 🚩
 
--BYTE - 
-
--SHORT - 
-
--INT - 
-
--LONG - 
-
 ---
 
 Dados  | Descrição
