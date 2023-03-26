@@ -6,8 +6,8 @@
 
 ---
 
-Dados Primitivos |
-------------------------|
+Dados Primitivos
+-----------------|
 Dados 🎲 | Descrição 📋✏️
 --------- | ------
 BYTE | armazena 8 bits(1 byte) e recebe valores entre -128 á 127.É útil para armazenar valores que não exigem muita precisão, cálculos simples.
