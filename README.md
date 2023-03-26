@@ -7,7 +7,7 @@
 ---
 
 Dados Primitivos 🎲 | Descrição 📋✏️
---------------------| ------
+--------- | ------
 BYTE | armazena 8 bits(1 byte) e recebe valores entre -128 á 127.É útil para armazenar valores que não exigem muita precisão, cálculos simples.
 SHORT | armazena dados positivos e negativos e o dobro do BYTE(16 bits) e cobre 5 digitos. É útil para armazenar valores maiores do que os representáveis por um byte, mas também sem muita precisão.
 INT | armazena dados positivos e negativos e o dobro do SHORT(32 bits) e cobre 10 digitos. É o tipo de dados mais comum para armazenar valores inteiros em Java, é o mais usado em operacõs matematicas.
@@ -17,3 +17,12 @@ DOUBLE | representa um número de ponto flutuante de precisão dupla de (64 bits
 CHAR | representa um único caractere Unicode de (16 bits). É usado para armazenar letras, números, símbolos e outros caracteres de texto.
 BOOLEAN | representa um valor que pode ser verdadeiro ou falso. É usado em operações de controle de fluxo para determinar quais caminhos de código seguir.
 
+---
+
+Dados de Referência 💡 |  Descrição 📋✏️
+--------- | ------
+STRING | representa uma sequência de caracteres. É usado para armazenar e manipular textos.
+ARRAYS | representa uma coleção de elementos do mesmo tipo de dados. É usado para armazenar listas de valores, como uma lista de compras ou uma coleção de pontos em um gráfico.
+CLASSES | representa um objeto de uma classe definida pelo usuário ou fornecida pelo próprio Java. É usado para criar instâncias de objetos e executar métodos nesses objetos.
+ 
+---
