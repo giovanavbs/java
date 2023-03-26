@@ -6,7 +6,7 @@
 
 ---
 
-Dados  | Descrição
+Dados 🎲 | Descrição 📋✏️
 --------- | ------
 BYTE | armazena 8 bits(1 byte) e recebe valores entre -128 á 127.
 SHORT | armazena dados positivos e negativos e o dobro do BYTE(16 bits) e cobre 5 digitos.
