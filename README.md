@@ -12,3 +12,5 @@ INT - armazena dados positivos e negativos e o dobro do SHORT(32 bits) e cobre 1
 LONG - armazena dados positivos e negativos e o dobro do INT(64 bits)
 
 ---
+
+(abc)
