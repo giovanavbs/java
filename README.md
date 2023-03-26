@@ -7,7 +7,7 @@
 ---
 
 Dados Primitivos 🎲 | Descrição 📋✏️
---------- | ------
+--------------------| ------
 BYTE | armazena 8 bits(1 byte) e recebe valores entre -128 á 127.É útil para armazenar valores que não exigem muita precisão, cálculos simples.
 SHORT | armazena dados positivos e negativos e o dobro do BYTE(16 bits) e cobre 5 digitos. É útil para armazenar valores maiores do que os representáveis por um byte, mas também sem muita precisão.
 INT | armazena dados positivos e negativos e o dobro do SHORT(32 bits) e cobre 10 digitos. É o tipo de dados mais comum para armazenar valores inteiros em Java, é o mais usado em operacõs matematicas.
