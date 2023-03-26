@@ -2,7 +2,7 @@
 
 estruturas e dados java.
 
-###Tipos de dados java 🚩
+### Tipos de dados java 🚩
 
 -BYTE - armazena 8 bits(1 byte) e recebe valores entre -128 á 127.
 
