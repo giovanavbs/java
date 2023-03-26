@@ -26,3 +26,34 @@ ARRAYS | representa uma coleção de elementos do mesmo tipo de dados. É usado 
 CLASSES | representa um objeto de uma classe definida pelo usuário ou fornecida pelo próprio Java. É usado para criar instâncias de objetos e executar métodos nesses objetos.
  
 ---
+
+estruturas
+
+IF - estrutura utilizada para testar condições, tem como objetivo executar uma ação apenas se a condição determinada for real.
+
+ELSE - complemento do if, determina a ação que deve ser executada caso o condição seja falsa.
+
+SWITCH/CASE - estrutura alternativa para códigos que necessitam de muitas condições e ficariam muito extensos ao usar if/else. Essa estrtura testa o valor da variavel com diversas opções e não apenas em 2 como no if/else, o "case" determina as diversas condições e quando uma corresponder ao valor da variavel, a condição será executada. A execução da condição é determinada pelo comando "break" e caso o valor da variavel não corresponda a nenhum case é executado o "default".
+
+estruturas de loop
+
+FOR - estrutura de looping no qual o valor da variavel auxilia no controle da quantidade de vezes que a repetição será executada, o segundo determina até quando o comando será realizada e o terceiro indica até que ponto o valor da variavel será alterado antes que a repetição termine.
+
+WHILE - estrutura de looping no qual não se sabe extamente quantas vezes a repetição será executada. Apens uma condição acompanha a sintaxe desse comando e enquanto ela não for verdadeira a repetição continuará acontecendo.
+
+DO.. WHILE - estrutura de looping no qual um processo é repetido até que a condição determinada no final seja verdadeira, esse comando é usado no lugar do "while" pois a repetição é executada pelo menos 1 vez antes de checar se a condição é verdadeira ou falsa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
