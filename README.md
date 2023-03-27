@@ -32,7 +32,7 @@ CLASSES | representa um objeto de uma classe definida pelo usuário ou fornecida
 ---
 
 Condicionais Java | Descrição 📋✏️
-----------|---------
+--------- | ------
 
 IF | estrutura utilizada para testar condições, tem como objetivo executar uma ação apenas se a condição determinada for real.
 
@@ -47,7 +47,7 @@ SWITCH/CASE | estrutura alternativa para códigos que necessitam de muitas condi
 ---
 
 Loop Java | Descrição 📋✏️
-------|----------
+--------- | ------
 
 FOR | estrutura de looping no qual o valor da variavel auxilia no controle da quantidade de vezes que a repetição será executada, o segundo determina até quando o comando será realizada e o terceiro indica até que ponto o valor da variavel será alterado antes que a repetição termine.
 
