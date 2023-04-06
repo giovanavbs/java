@@ -75,13 +75,12 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
 ### Exemplos
 ---
 Button
-<span>
 <Button
     android:id="@+id/myButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Clique aqui"/>
-</span>
+
 FONTES 
 https://developer.android.com
 https://www.microsoft.com
