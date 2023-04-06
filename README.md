@@ -45,7 +45,7 @@ FOR | estrutura de looping no qual o valor da variavel auxilia no controle da qu
 WHILE | estrutura de looping no qual não se sabe extamente quantas vezes a repetição será executada. Apens uma condição acompanha a sintaxe desse comando e enquanto ela não for verdadeira a repetição continuará acontecendo.
 DO.. WHILE | estrutura de looping no qual um processo é repetido até que a condição determinada no final seja verdadeira, esse comando é usado no lugar do "while" pois a repetição é executada pelo menos 1 vez antes de checar se a condição é verdadeira ou falsa.
 ---
-## Android Studio Google (Android 12L)
+## Android Studio Google 🤖
 
 ---
 
