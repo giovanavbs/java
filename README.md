@@ -76,6 +76,7 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
 ---
 
 ### Button 🟢
+1. Abra o arquivo e adicione o seguinte código para criar um botão:
 ```
 <Button
     android:id="@+id/myButton"
@@ -83,7 +84,28 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
     android:layout_height="wrap_content"
     android:text="Clique aqui"/>
 ```
+2. Abra o arquivo MainActivity.java e adicione o seguinte código para lidar com o clique do botão:
+```
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Button myButton = findViewById(R.id.myButton);
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "O botão foi clicado!", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+}
+
+``` 
 ### ImageView 🟡
+1. Abra o arquivo e adicione o seguinte código para criar um ImageView:
  ```
  <ImageView
     android:id="@+id/myImage"
@@ -91,6 +113,22 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
     android:layout_height="wrap_content"
     android:src="@drawable/minha_imagem"/>
  ```
+2. Abra o arquivo MainActivity.java e adicione o seguinte código para referenciar o ImageView:
+```
+public class MainActivity extends AppCompatActivity {
+
+    private ImageView myImage;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        myImage = findViewById(R.id.myImage);
+    }
+}
+
+```
 ### TextView 🔴
 ```
 <TextView
