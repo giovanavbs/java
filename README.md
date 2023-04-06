@@ -19,7 +19,7 @@ BOOLEAN | representa um valor que pode ser verdadeiro ou falso. É usado em oper
 
 ---
 
-##Exemplos
+## Exemplos
 
 ---
 
@@ -34,18 +34,19 @@ num = 10;
 ```
 3. ou combine a declaração e atribuição em:
 ```
-int myInt = 10;
+int num = 10;
 ```
 4. Utilize a variável em operações matemáticas:
 ````
-int result = myInt + 5;
+int result = num + 5;
 
 ```
 5. ou para exibir seu valor em um console:
 ```
-System.out.println("Valor de myInt: " + myInt);
+System.out.println("Valor de num: " + num);
 
 ```
+---
 Dados de Referência 💡 |  Descrição 📋✏️
 --------- | ------
 STRING | representa uma sequência de caracteres. É usado para armazenar e manipular textos.
