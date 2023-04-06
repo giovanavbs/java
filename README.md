@@ -29,7 +29,7 @@ BOOLEAN | representa um valor que pode ser verdadeiro ou falso. É usado em oper
 int num;
 ```
 2. Atribua um valor à variável:
-````
+```
 num = 10;
 ```
 3. ou combine a declaração e atribuição em:
@@ -37,14 +37,12 @@ num = 10;
 int num = 10;
 ```
 4. Utilize a variável em operações matemáticas:
-````
+```
 int result = num + 5;
-
 ```
 5. ou para exibir seu valor em um console:
 ```
 System.out.println("Valor de num: " + num);
-
 ```
 ---
 Dados de Referência 💡 |  Descrição 📋✏️
