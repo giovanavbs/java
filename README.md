@@ -91,6 +91,26 @@ SWITCH/CASE | estrutura alternativa para códigos que necessitam de muitas condi
 
 ---
 
+## Exemplo
+
+---
+
+### If e Else:
+1. Declare uma variável para a condição que será avaliada:
+```
+int num = 10;
+```
+2. Crie a estrutura if e else:
+```
+if (num > 5) {
+    System.out.println("O número é maior que 5.");
+}
+ else {
+    System.out.println("O número é menor ou igual a 5.");
+}
+```
+---
+
 Loop Java 🔁 | Descrição 📋✏️
 --------- | ------
 FOR | estrutura de looping no qual o valor da variavel auxilia no controle da quantidade de vezes que a repetição será executada, o segundo determina até quando o comando será realizada e o terceiro indica até que ponto o valor da variavel será alterado antes que a repetição termine.
