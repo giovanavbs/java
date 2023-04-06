@@ -130,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 ### TextView 🔴
+1. Abra o e adicione o seguinte código para criar um TextView:
 ```
 <TextView
     android:id="@+id/myText"
@@ -138,7 +139,22 @@ public class MainActivity extends AppCompatActivity {
     android:text="Olá, mundo!"/>
 
 ```
+2. Abra o arquivo MainActivity.java e adicione o seguinte código para referenciar o TextView
+```
+public class MainActivity extends AppCompatActivity {
 
+    private TextView myText;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        myText = findViewById(R.id.myText);
+    }
+}
+
+```
 
 
 
