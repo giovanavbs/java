@@ -75,17 +75,13 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
 
 ---
 
-~~~javascript
-Esta é uma linha de código em Javascript.
-~~~
+#### button
 
-~~~php
-Esta é uma linha de código em PH.
-~~~
-
-~~~html
-Esta é uma linha de código em HTML.
-~~~
+><Button
+    android:id="@+id/myButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clique aqui"/>
 
 
 
