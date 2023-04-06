@@ -57,6 +57,7 @@ Elementos | Descrição 📋✏️
 --------- | ------
 BUTTON | Um elemento no qual o usuario pode clicar para executar uma ação.
 ---
+--------- | ------
 TEXTVIEW | Um elemento que exibe um texto para o usuario.
 ---
 EDITTEXT | Um elemento para inserir e editar texto. É necessario especificar um "inputType" para especificar o tipo de caracteres que devem ser recebidas.
