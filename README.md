@@ -56,7 +56,6 @@ DO.. WHILE | estrutura de looping no qual um processo é repetido até que a con
 Elementos | Descrição 📋✏️
 --------- | ------
 BUTTON | Um elemento no qual o usuario pode clicar para executar uma ação.
---------- | ------
 <Button
      android:id="@+id/button_id"
      android:layout_height="wrap_content"
