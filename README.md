@@ -56,10 +56,7 @@ DO.. WHILE | estrutura de looping no qual um processo é repetido até que a con
 Elementos | Descrição 📋✏️
 --------- | ------
 BUTTON | Um elemento no qual o usuario pode clicar para executar uma ação.
----
---------- | ------
 TEXTVIEW | Um elemento que exibe um texto para o usuario.
----
 EDITTEXT | Um elemento para inserir e editar texto. É necessario especificar um "inputType" para especificar o tipo de caracteres que devem ser recebidas.
 LISTVIEW | Um elemento que realiza a exibição do conteudo em rolagem vertical de forma que a cada elemento adicionado é imediatamente colocado abaixo do anterior.
 GRIDVIEW | Um elemento que realiza a exibição do conteudo em 2 dimensões sendoe elas, linhas e colunas. Os elementos são inseridos automaticamente usando o "ListAdapter" e definidos no layout bidimensional.
