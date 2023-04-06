@@ -100,7 +100,7 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
           android:drawablePadding="4dp"
           android:drawableTint="#ff0000"
           android:text="I'm a button with an icon" />
-  </LinearLayout>
+</LinearLayout>
 
 
 
