@@ -19,6 +19,33 @@ BOOLEAN | representa um valor que pode ser verdadeiro ou falso. É usado em oper
 
 ---
 
+##Exemplos
+
+---
+
+## Int
+1. Declare uma variável do tipo int:
+```
+int num;
+```
+2. Atribua um valor à variável:
+````
+num = 10;
+```
+3. ou combine a declaração e atribuição em:
+```
+int myInt = 10;
+```
+4. Utilize a variável em operações matemáticas:
+````
+int result = myInt + 5;
+
+```
+5. ou para exibir seu valor em um console:
+```
+System.out.println("Valor de myInt: " + myInt);
+
+```
 Dados de Referência 💡 |  Descrição 📋✏️
 --------- | ------
 STRING | representa uma sequência de caracteres. É usado para armazenar e manipular textos.
@@ -71,6 +98,7 @@ VIDEOVIEW | Elemento utilizado para exibir arquivos de vídeo, ele permite que g
 SEARCHVIEW | Elemnento fornece uma barra de pesquisa para o usuario que contém sugestões de pesquisa e resultados se estiverem previamente disponiveis.
 VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas transições entre os "textviews","imageviews" ou qualquer outro view de layout. Ele alterna entre 2 ou mais views, o que fornece uma transição animada.
 ---
+
 ## Exemplos
 
 ---
