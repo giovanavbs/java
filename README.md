@@ -70,37 +70,6 @@ WEBVIEW | Elemento utilizado para exibir paginas web no aplicativo, geralmente u
 VIDEOVIEW | Elemento utilizado para exibir arquivos de vídeo, ele permite que gerenciamento de layout e pode carregar de diversas fontes.
 SEARCHVIEW | Elemnento fornece uma barra de pesquisa para o usuario que contém sugestões de pesquisa e resultados se estiverem previamente disponiveis.
 VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas transições entre os "textviews","imageviews" ou qualquer outro view de layout. Ele alterna entre 2 ou mais views, o que fornece uma transição animada.
----
-
- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:paddingLeft="16dp"
-      android:paddingRight="16dp"
-      android:orientation="vertical" >
-  
-      <Button
-          android:id="@+id/supabutton"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="I'm a button" />
-  
-      <ImageButton
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:contentDescription="A tiny Android icon"
-          android:src="@drawable/baseline_android_24"
-          app:tint="#ff0000" />
-  
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:drawableStart="@drawable/baseline_android_24"
-          android:drawablePadding="4dp"
-          android:drawableTint="#ff0000"
-          android:text="I'm a button with an icon" />
-</LinearLayout>
 
 
 
