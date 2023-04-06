@@ -19,11 +19,11 @@ BOOLEAN | representa um valor que pode ser verdadeiro ou falso. É usado em oper
 
 ---
 
-## Exemplos
+## Exemplo
 
 ---
 
-## Int
+## Int 🟣
 1. Declare uma variável do tipo int:
 ```
 int num;
@@ -52,7 +52,33 @@ ARRAYS | representa uma coleção de elementos do mesmo tipo de dados. É usado 
 CLASSES | representa um objeto de uma classe definida pelo usuário ou fornecida pelo próprio Java. É usado para criar instâncias de objetos e executar métodos nesses objetos.
  
 ---
+## Exemplo
 
+---
+
+### String 🔵
+1. Declare uma variável do tipo String:
+```
+String text;
+```
+2. Atribua um valor à variável:
+```
+text = "Olá, mundo!";
+```
+3. ou combine a declaração e atribuição em:
+```
+String text = "Olá, mundo!";
+```
+4. Utilize a variável em operações que envolvam strings, como concatenação:
+```
+String result = text + " Estou aprendendo Java!";
+```
+5. ou para exibir seu valor em um console:
+```
+System.out.println("Valor de text: " + text);
+
+```
+---
 ### Estruturas condicionais em Java 🚩
 
 ---
