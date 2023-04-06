@@ -23,7 +23,7 @@ BOOLEAN | representa um valor que pode ser verdadeiro ou falso. É usado em oper
 
 ---
 
-## Int 🟣
+## Int 🔴
 1. Declare uma variável do tipo int:
 ```
 int num;
@@ -56,7 +56,7 @@ CLASSES | representa um objeto de uma classe definida pelo usuário ou fornecida
 
 ---
 
-### String 🔵
+### String 🟠
 1. Declare uma variável do tipo String:
 ```
 String text;
@@ -95,7 +95,7 @@ SWITCH/CASE | estrutura alternativa para códigos que necessitam de muitas condi
 
 ---
 
-### If e Else:
+### If e Else 🟡
 1. Declare uma variável para a condição que será avaliada:
 ```
 int num = 10;
@@ -116,7 +116,26 @@ Loop Java 🔁 | Descrição 📋✏️
 FOR | estrutura de looping no qual o valor da variavel auxilia no controle da quantidade de vezes que a repetição será executada, o segundo determina até quando o comando será realizada e o terceiro indica até que ponto o valor da variavel será alterado antes que a repetição termine.
 WHILE | estrutura de looping no qual não se sabe extamente quantas vezes a repetição será executada. Apens uma condição acompanha a sintaxe desse comando e enquanto ela não for verdadeira a repetição continuará acontecendo.
 DO.. WHILE | estrutura de looping no qual um processo é repetido até que a condição determinada no final seja verdadeira, esse comando é usado no lugar do "while" pois a repetição é executada pelo menos 1 vez antes de checar se a condição é verdadeira ou falsa.
+
 ---
+
+## Exemplo
+
+---
+
+### For 🟢
+1. Declare uma variável:
+```
+int number;
+```
+2. Crie a estrutura for
+```
+for (count = 0; count < 5; count++) {
+    System.out.println("O valor atual de count é: " + count);
+}
+```
+---
+
 ## Android Studio Google 🤖
 
 ---
@@ -148,7 +167,7 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
 
 ---
 
-### Button 🟢
+### Button 🔵
 1. Abra o arquivo e adicione o seguinte código para criar um botão:
 ```
 <Button
@@ -177,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ``` 
-### ImageView 🟡
+### ImageView 🟣
 1. Abra o arquivo e adicione o seguinte código para criar um ImageView:
  ```
  <ImageView
@@ -202,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
-### TextView 🔴
+### TextView 🟤
 1. Abra o e adicione o seguinte código para criar um TextView:
 ```
 <TextView
@@ -228,6 +247,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+Referencias: 
 
 
 
