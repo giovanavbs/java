@@ -44,38 +44,32 @@ Loop Java 🔁 | Descrição 📋✏️
 FOR | estrutura de looping no qual o valor da variavel auxilia no controle da quantidade de vezes que a repetição será executada, o segundo determina até quando o comando será realizada e o terceiro indica até que ponto o valor da variavel será alterado antes que a repetição termine.
 WHILE | estrutura de looping no qual não se sabe extamente quantas vezes a repetição será executada. Apens uma condição acompanha a sintaxe desse comando e enquanto ela não for verdadeira a repetição continuará acontecendo.
 DO.. WHILE | estrutura de looping no qual um processo é repetido até que a condição determinada no final seja verdadeira, esse comando é usado no lugar do "while" pois a repetição é executada pelo menos 1 vez antes de checar se a condição é verdadeira ou falsa.
+---
+## Android Studio
 
-elementos visuais do android
+---
 
-BUTTON - um elemento no qual o usuario pode clicar para executar uma ação.
+### Elementos visuais do android 🚩
 
-TEXTVIEW - um elemento que exibe um texto para o usuario.
+---
 
-EDITTEXT - um elemento para inserir e editar texto. É necessario especificar um "inputType" para especificar o tipo de caracteres que devem ser recebidas.
-
-LISTVIEW - um elemento que realiza a exibição do conteudo em rolagem vertical de forma que a cada elemento adicionado é imediatamente colocado abaixo do anterior.
-
-GRIDVIEW - um elemento que realiza a exibição do conteudo em 2 dimensões sendoe elas, linhas e colunas. Os elementos são inseridos automaticamente usando o "ListAdapter" e definidos no layout bidimensional.
-
-SCROOLVIEW - elemento funciona como um scroll tanto vertical quanto horizontal para views. Além disso, também pode ser utilizado para ampliar ou diminuir conteudo adicionando outras propiedades. É recomendado utilizar esse elemento para poucos itens para que ele funcione em sua maior eficiência.
-
-IMAGEVIEW - elemento para exibição de imagens.
-
-VIEWPAGER - elemnto para gerenciar layout, ele permite que o usuario vire a tela para esquerda e direita. Além disso, também é possivel realizar o scroll horizontal.
-
-DECORVIEW - elemento permite marcar anotações e depois adicionar ao viewpager como recursos de layout.
-
-ADAPTERVIEW - elemento para exibir grandes conjuntos de dados.
-
-RECYCLERVIEW - elemento é uma melhoria dos elementos "listview" e "gridview" em questão de layout já que pode ser amplamente personalizado.
-
-WEBVIEW - elemento utilizado para exibir paginas web no aplicativo, geralmente usado para rodar o navegador ou conteudos do navegador no projeto.
-
-VIDEOVIEW - elemento utilizado para exibir arquivos de vídeo, ele permite que gerenciamento de layout e pode carregar de diversas fontes.
-
-SEARCHVIEW - elemnento fornece uma barra de pesquisa para o usuario que contém sugestões de pesquisa e resultados se estiverem previamente disponiveis.
-
-VIEWANIMATOR - elemento utilizado para alternar entre views, ele auxilia nas transições entre os "textviews","imageviews" ou qualquer outro view de layout. Ele alterna entre 2 ou mais views, o que fornece uma transição animada.
+Elementos | Descrição 📋✏️
+--------- | ------
+BUTTON | Um elemento no qual o usuario pode clicar para executar uma ação.
+TEXTVIEW | Um elemento que exibe um texto para o usuario.
+EDITTEXT | Um elemento para inserir e editar texto. É necessario especificar um "inputType" para especificar o tipo de caracteres que devem ser recebidas.
+LISTVIEW | Um elemento que realiza a exibição do conteudo em rolagem vertical de forma que a cada elemento adicionado é imediatamente colocado abaixo do anterior.
+GRIDVIEW | Um elemento que realiza a exibição do conteudo em 2 dimensões sendoe elas, linhas e colunas. Os elementos são inseridos automaticamente usando o "ListAdapter" e definidos no layout bidimensional.
+SCROOLVIEW | Elemento funciona como um scroll tanto vertical quanto horizontal para views. Além disso, também pode ser utilizado para ampliar ou diminuir conteudo adicionando outras propiedades. É recomendado utilizar esse elemento para poucos itens para que ele funcione em sua maior eficiência.
+IMAGEVIEW | Elemento para exibição de imagens.
+VIEWPAGER | Elemnto para gerenciar layout, ele permite que o usuario vire a tela para esquerda e direita. Além disso, também é possivel realizar o scroll horizontal.
+DECORVIEW | Elemento permite marcar anotações e depois adicionar ao viewpager como recursos de layout.
+ADAPTERVIEW | Elemento para exibir grandes conjuntos de dados.
+RECYCLERVIEW | Elemento é uma melhoria dos elementos "listview" e "gridview" em questão de layout já que pode ser amplamente personalizado.
+WEBVIEW | Elemento utilizado para exibir paginas web no aplicativo, geralmente usado para rodar o navegador ou conteudos do navegador no projeto.
+VIDEOVIEW | Elemento utilizado para exibir arquivos de vídeo, ele permite que gerenciamento de layout e pode carregar de diversas fontes.
+SEARCHVIEW | Elemnento fornece uma barra de pesquisa para o usuario que contém sugestões de pesquisa e resultados se estiverem previamente disponiveis.
+VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas transições entre os "textviews","imageviews" ou qualquer outro view de layout. Ele alterna entre 2 ou mais views, o que fornece uma transição animada.
 
 FONTES 
 https://developer.android.com
