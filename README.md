@@ -72,23 +72,11 @@ SEARCHVIEW | Elemnento fornece uma barra de pesquisa para o usuario que contém 
 VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas transições entre os "textviews","imageviews" ou qualquer outro view de layout. Ele alterna entre 2 ou mais views, o que fornece uma transição animada.
 ---
 
-### Exemplos
----
-Button
----
-<LinearLayout>
 <Button
     android:id="@+id/myButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Clique aqui"/>
-</LinearLayout>
-
-FONTES 
-https://developer.android.com
-https://www.microsoft.com
-https://reactnative.dev
-https://abhiandroid.com
+    android:text="Clique aqui"/></LinearLayout>
 
 
 
