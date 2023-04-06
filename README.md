@@ -247,8 +247,8 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
-Referencias: 
-
+Referencias: https://developer.android.com https://www.microsoft.com https://abhiandroid.com 
+ 
 
 
 
