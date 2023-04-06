@@ -71,11 +71,11 @@ VIDEOVIEW | Elemento utilizado para exibir arquivos de vídeo, ele permite que g
 SEARCHVIEW | Elemnento fornece uma barra de pesquisa para o usuario que contém sugestões de pesquisa e resultados se estiverem previamente disponiveis.
 VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas transições entre os "textviews","imageviews" ou qualquer outro view de layout. Ele alterna entre 2 ou mais views, o que fornece uma transição animada.
 ---
-### Exemplos
+## Exemplos
 
 ---
 
-#### button
+### Button 🟢
 ```
 <Button
     android:id="@+id/myButton"
@@ -83,7 +83,23 @@ VIEWANIMATOR | Elemento utilizado para alternar entre views, ele auxilia nas tra
     android:layout_height="wrap_content"
     android:text="Clique aqui"/>
 ```
+### ImageView 🟡
+ ```
+ <ImageView
+    android:id="@+id/myImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/minha_imagem"/>
+ ```
+### TextView 🔴
+```
+<TextView
+    android:id="@+id/myText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Olá, mundo!"/>
 
+```
 
 
 
